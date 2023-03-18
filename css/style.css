@@ -6,3 +6,16 @@
     list-style: none;
     font-family: 'Inter', sans-serif;
 }
+
+:root {
+    --primary-color:#E6533C;
+    --secund-color:#323443;
+    --button-color:#7A29DC;
+    --text-color-p: rgba(239, 237, 232, 0.65);
+
+}
+
+body {
+    background: black;
+    color: white;
+}
