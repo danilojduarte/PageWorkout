@@ -59,3 +59,8 @@ nav {
 }
 
 /* Inicio do main */
+.main__conteudo {
+    display: flex;
+    flex-direction: row;
+    padding-top: 60px;
+}
