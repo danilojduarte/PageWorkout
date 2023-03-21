@@ -52,10 +52,16 @@ nav {
 .ul li {
     margin: 0 30px;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .ul li a {
     color: var(--text-color);
+    transition: all .3s ease-in-out;
+}
+
+.ul li a:hover {
+    color: var(--primary-color);
 }
 
 /* Inicio do main */
@@ -90,7 +96,7 @@ nav {
     color: var(--text-color);
     font-size: 16px;
     font-weight: bold;
-    
+
     align-items: flex-start;
     justify-content: center;
     border-radius: 8px;
@@ -104,7 +110,30 @@ nav {
     transition: all .3s ease-in-out;
 
 }
+
 .main__conteudo .main__text button:hover {
     background-color: var(--text-color);
     color: var(--primary-color);
+}
+
+.main__cards {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 30px 0;
+    transition: all .3s ease-in-out;
+}
+
+.main__card {
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+
+.main__card:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.main__cards img {
+    width: 130px;
+    height: 60px;
 }
