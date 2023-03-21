@@ -53,6 +53,7 @@ nav {
     margin: 0 30px;
     font-size: 16px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .ul li a {
@@ -135,7 +136,7 @@ nav {
 }
 
 .main__cards img {
-    width: 130px;
+    width: 120px;
     height: 60px;
 }
 
