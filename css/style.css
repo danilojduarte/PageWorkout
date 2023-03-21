@@ -196,3 +196,61 @@ nav {
 
     letter-spacing: 0.5px;
 }
+
+.start .start__cards {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.start .start__cards .start__card {
+    width: 254px;
+    height: 160px;
+    left: 141px;
+    top: 1337px;
+
+    background: #323443;
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding-left: 15px;
+    transition: all .3s ease-in-out;
+}
+
+.start .start__cards .start__card:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.start .start__cards .start__card h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    letter-spacing: 0.5px;
+    color: var(--text-color);
+    transition: all .3s ease-in-out;
+
+}
+
+.start .start__cards .start__card h4:hover {
+    color: var(--primary-color);
+}
+
+.start .start__cards .start__card p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.3px;
+
+    /* Text 2 */
+
+    color: var(--text-color-p);
+}
