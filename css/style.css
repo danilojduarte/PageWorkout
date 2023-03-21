@@ -164,5 +164,35 @@ nav {
     height: 684px;
     left: 860px;
     top: 305px;
+}
 
+/* Inicio Section Start */
+
+.start {
+    display: flex;
+    flex-direction: column;
+}
+
+.start .start__text {
+    margin-bottom: 20px;
+}
+
+.start .start__text h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+
+    letter-spacing: 0.3px;
+}
+
+.start .start__text p {
+    color: var(--text-color-p);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 20px 0;
+
+    letter-spacing: 0.5px;
 }
