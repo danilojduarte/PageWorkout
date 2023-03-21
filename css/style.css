@@ -67,9 +67,10 @@ nav {
 
 .main__conteudo .main__text h1 {
     font-weight: 800;
-    font-size: 152px;
-    line-height: 170px;
-    letter-spacing: -2px;
+    font-size: 132px;
+    line-height: 120px;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
 }
 
 .main__conteudo .main__text span {
