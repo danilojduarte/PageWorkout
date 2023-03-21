@@ -133,7 +133,35 @@ nav {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
+
 .main__cards img {
     width: 130px;
     height: 60px;
+}
+
+.main__featured {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.main__featured h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.featured__cards {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.main__img img {
+    width: 430px;
+    height: 684px;
+    left: 860px;
+    top: 305px;
+
 }
