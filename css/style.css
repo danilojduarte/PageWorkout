@@ -78,6 +78,9 @@ nav {
     padding-top: 60px;
 }
 
+.main__text {
+    width: 55%;
+}
 .main__conteudo .main__text h1 {
     font-weight: 800;
     font-size: 132px;
@@ -166,7 +169,7 @@ nav {
 }
 
 .main__img img {
-    width: 430px;
+    width: 110%;
     height: 684px;
     left: 860px;
     top: 305px;
@@ -287,5 +290,19 @@ nav {
     }
     .ul.ativo {
         left: 0;
+    }
+    main .container {
+        flex-direction: column;
+    }
+    main .container .main__img {
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+    }
+    main .container .main__text {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
 }
