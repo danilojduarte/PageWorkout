@@ -295,7 +295,8 @@ nav {
         flex-direction: column;
     }
     main .container .main__img {
-        width: 60%;
+        padding-top: 20px;
+        width: 70%;
         justify-content: center;
         align-items: center;
     }
@@ -304,5 +305,10 @@ nav {
         text-align: center;
         justify-content: center;
         align-items: center;
+    }
+    main .container .main__cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 }
