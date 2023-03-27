@@ -277,6 +277,11 @@ nav {
     flex-direction: row;
     padding-top: 150px;
     justify-content: space-between;
+    align-items: center;
+}
+
+.container .work .work__text {
+    width: 50%;
 }
 
 .container .work .work__text h3 {
@@ -296,7 +301,44 @@ nav {
     color: var(--text-color-p);
 
     letter-spacing: 0.3px;
+    padding: 20px 0;
+
 }
+
+.container .work .work__btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+    color: var(--primary-color);
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    background-color: #E6533C;
+    color: #FAFAF9;
+    width: 140px;
+    height: 40px;
+    border-radius: 12px;
+}
+.container .work .work__btn:hover {
+    background-color: white;
+    color: var(--primary-color);
+}
+.container .work .work__btn i {
+    font-size: 18px;
+    margin-left: 6px;
+}
+
+.container .work .work__img {
+    width: 50%;
+}
+
+.container .work .work__img img {
+    border-radius: 12px;
+    width: 100%;
+}
+
+
 
 
 /* Responsvidade */
@@ -369,5 +411,16 @@ nav {
         display: flex;
         justify-content: center;
         text-align: center;
+    }
+    .container .work {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .container .work .work__text {
+        text-align: center;
+    }
+    .container .work .work__btn {
+        margin: auto;
     }
 }
