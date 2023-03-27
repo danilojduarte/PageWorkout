@@ -315,4 +315,14 @@ nav {
         flex-direction: row;
         justify-content: center;
     }
+    .container .start__text h3,p {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .container .start__cards {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
 }
