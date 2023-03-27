@@ -81,6 +81,7 @@ nav {
 .main__text {
     width: 55%;
 }
+
 .main__conteudo .main__text h1 {
     font-weight: 800;
     font-size: 132px;
@@ -270,12 +271,41 @@ nav {
     color: var(--primary-color);
 }
 
+/* Inicio Work Out */
+.container .work {
+    display: flex;
+    flex-direction: row;
+    padding-top: 150px;
+    justify-content: space-between;
+}
+
+.container .work .work__text h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.3px;
+    color: var(--text-color);
+}
+
+.container .work .work__text p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--text-color-p);
+
+    letter-spacing: 0.3px;
+}
+
+
 /* Responsvidade */
 
 @media (max-width: 960px) {
-    .menu__icon{
+    .menu__icon {
         display: block;
     }
+
     .ul {
         position: fixed;
         top: 0;
@@ -289,42 +319,52 @@ nav {
 
         transition: all 0.3s ease-in-out;
     }
+
     .ul li {
         font-size: 20px;
         margin: 20px 0;
     }
+
     .ul.ativo {
         left: 0;
     }
+
     main .container {
         flex-direction: column;
     }
+
     main .container .main__img {
         display: flex;
         justify-content: center;
     }
+
     main .container .main__img img {
         padding-top: 20px;
         width: 60%;
         justify-content: center;
         align-items: center;
     }
+
     main .container .main__text {
         width: 100%;
         text-align: center;
         justify-content: center;
         align-items: center;
     }
+
     main .container .main__cards {
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
-    .container .start__text h3,p {
+
+    .container .start__text h3,
+    p {
         display: flex;
         justify-content: center;
         text-align: center;
     }
+
     .container .start__cards {
         display: flex;
         justify-content: center;
