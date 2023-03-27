@@ -264,6 +264,11 @@ nav {
     color: var(--text-color-p);
 }
 
+.start__cards .start__card i {
+    font-size: 40px;
+    padding-top: 10px;
+    color: var(--primary-color);
+}
 
 /* Responsvidade */
 
