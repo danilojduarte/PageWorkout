@@ -278,6 +278,7 @@ nav {
     padding-top: 150px;
     justify-content: space-between;
     align-items: center;
+    gap: 2rem;
 }
 
 .container .work .work__text {
