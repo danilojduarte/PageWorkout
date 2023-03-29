@@ -306,7 +306,7 @@ nav {
 
 }
 
-.container .work .work__btn a{
+.container .work .work__btn a {
     color: var(--text-color);
     cursor: pointer;
     transition: all .4s ease-in-out;
@@ -330,9 +330,11 @@ nav {
     height: 40px;
     border-radius: 12px;
 }
+
 .container .work .work__btn:hover {
     background-color: white;
 }
+
 .container .work .work__btn i {
     font-size: 18px;
     margin-left: 6px;
@@ -349,7 +351,74 @@ nav {
 
 /* Inicio Membership*/
 
+.container .membership .membership__text h3 {
+    left: 141px;
+    padding-top: 20px;
 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 70px;
+    border-bottom: 3px solid var(--secund-color);
+    letter-spacing: 0.83px;
+}
+
+.container .membership .cards {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 30px;
+}
+
+.container .membership .cards .card {
+    width: 538px;
+    height: 640px;
+    left: 147px;
+    top: 3233px;
+
+    display: flex;
+    flex-direction: column;
+    background: var(--secund-color);
+}
+
+.container .membership .cards .card h4 {
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+
+    text-align: center;
+    letter-spacing: 0.3px;
+    padding: 30px 0;
+
+    color: var(--text-color);
+}
+
+.container .membership .cards .card p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 133% */
+    padding: 0 40px;
+    letter-spacing: 0.5px;
+    color: var(--text-color-p);
+}
+
+.container .membership .cards .membership__list {
+    
+    /* padding-top: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+
+    color: var(--text-color-p);
+
+    letter-spacing: 0.5px;
+} */
 
 
 
@@ -428,14 +497,17 @@ nav {
         justify-content: center;
         text-align: center;
     }
+
     .container .work {
         display: flex;
         flex-direction: column;
         gap: 2rem;
     }
+
     .container .work .work__text {
         text-align: center;
     }
+
     .container .work .work__btn {
         margin: auto;
     }
