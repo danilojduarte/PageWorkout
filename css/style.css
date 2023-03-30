@@ -375,6 +375,7 @@ nav {
     height: 640px;
     left: 147px;
     top: 3233px;
+    border-radius: 12px;
 
     display: flex;
     flex-direction: column;
