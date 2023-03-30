@@ -430,7 +430,7 @@ nav {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .container .membership .cards .card .work__btn__1 a h3 {
@@ -447,14 +447,37 @@ nav {
     color: var(--primary-color);
 
 }
+
 .container .membership .cards .card .work__btn__1 i {
     font-size: 28px;
     text-align: center;
     color: #0070C9;
-    
+
     cursor: pointer;
 }
 
+.container .membership .cards .card .work__btn__2 {
+    width: 150px;
+    height: 30px;
+    margin-left: 120px;
+    top: 3768px;
+
+    /* Link */
+
+    background: #0070C9;
+    border-radius: 10px;
+}
+
+.container .membership .cards .card .work__btn__2 h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--text-color);
+
+    text-align: center;
+    justify-content: center;
+}
 
 
 
