@@ -372,7 +372,7 @@ nav {
 
 .container .membership .cards .card {
     width: 538px;
-    height: 640px;
+    height: 480px;
     left: 147px;
     top: 3233px;
     border-radius: 12px;
@@ -408,20 +408,52 @@ nav {
 }
 
 .container .membership .cards .membership__list {
-    
-    /* padding-top: 40px;
+
+    padding-top: 40px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     text-align: left;
-
+    padding-left: 105px;
     color: var(--text-color-p);
-
     letter-spacing: 0.5px;
-} */
+}
 
+.container .membership .cards .membership__list ul li {
+    list-style-type: square;
+}
 
+.container .membership .cards .card .work__btn__1 {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container .membership .cards .card .work__btn__1 a h3 {
+    color: #0070C9;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.container .membership .cards .card .work__btn__1 a h3:hover {
+    color: var(--primary-color);
+
+}
+.container .membership .cards .card .work__btn__1 i {
+    font-size: 28px;
+    text-align: center;
+    color: #0070C9;
+    
+    cursor: pointer;
+}
 
 
 
