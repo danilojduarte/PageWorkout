@@ -17,6 +17,8 @@
     --button-color: #7A29DC;
     --text-color-p: rgba(239, 237, 232, 0.65);
 
+    --color-background: #54555faa;
+
 }
 
 body {
@@ -380,6 +382,11 @@ nav {
     display: flex;
     flex-direction: column;
     background: var(--secund-color);
+
+    transition: all .3s ease-in-out;
+}
+.container .membership .cards .card:hover {
+    background-color: var(--color-background);
 }
 
 .container .membership .cards .card h4 {
