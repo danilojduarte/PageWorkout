@@ -355,7 +355,7 @@ nav {
 
 .container .membership .membership__text h3 {
     left: 141px;
-    padding-top: 20px;
+    padding-top: 40px;
 
     font-style: normal;
     font-weight: 500;
@@ -369,22 +369,26 @@ nav {
     display: flex;
     justify-content: space-between;
 
+    height: 100vh;
+
     padding-top: 30px;
 }
 
 .container .membership .cards .card {
     width: 538px;
-    height: 480px;
+    height: 520px;
     left: 147px;
     top: 3233px;
     border-radius: 12px;
 
     display: flex;
     flex-direction: column;
+
     background: var(--secund-color);
 
     transition: all .3s ease-in-out;
 }
+
 .container .membership .cards .card:hover {
     background-color: var(--color-background);
 }
@@ -432,11 +436,12 @@ nav {
 }
 
 .container .membership .cards .card .work__btn__1 {
-    padding-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    /* padding-top: 70px; */
+    margin: auto;
 
 }
 
@@ -469,10 +474,15 @@ nav {
     margin-left: 120px;
     top: 3768px;
 
-    /* Link */
-
+    margin: auto;
     background: #0070C9;
     border-radius: 10px;
+
+    transition: all .3s ease-in-out;
+}
+
+.container .membership .cards .card .work__btn__2:hover {
+    background-color: var(--primary-color);
 }
 
 .container .membership .cards .card .work__btn__2 h3 {
@@ -481,10 +491,10 @@ nav {
     font-size: 16px;
     line-height: 22px;
     color: var(--text-color);
-
     text-align: center;
-    justify-content: center;
+    padding-top: 5px;
 }
+
 
 
 
