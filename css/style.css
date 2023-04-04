@@ -497,10 +497,20 @@ nav {
 
 /* Inicio Footer*/
 .footer{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     flex-direction: row;
+    justify-content: space-between;
+    height: 40vh;
 }
 
+
+.footer__logo a h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--primary-color);
+    padding-bottom: 10px;
+}
 
 
 
