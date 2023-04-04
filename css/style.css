@@ -496,12 +496,11 @@ nav {
 }
 
 /* Inicio Footer*/
-.footer{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    flex-direction: row;
+.footer {
+    display: flex;
+    align-items: center;
     justify-content: space-between;
-    height: 40vh;
+    height: 30vh;
 }
 
 
