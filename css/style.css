@@ -511,6 +511,15 @@ nav {
     padding-bottom: 10px;
 }
 
+.footer .footer__logo p {
+    color: var(--text-color-p);
+    font-size: 14px;
+    text-align: justify;
+}
+
+.footer .footer__text {
+    
+}
 
 
 
