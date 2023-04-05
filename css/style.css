@@ -497,18 +497,28 @@ nav {
 
 /* Inicio Footer*/
 .footer {
+    border-top: 3px solid var(--secund-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 30vh;
+    top: 0;
+
 }
 
+.footer .footer__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3rem;
+    
+}
 
 .footer__logo a h3 {
     font-size: 18px;
     font-weight: bold;
     color: var(--primary-color);
-    padding-bottom: 10px;
+   
 }
 
 .footer .footer__logo p {
@@ -518,9 +528,48 @@ nav {
 }
 
 .footer .footer__text {
-    
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
+.footer .footer__text img {
+    width: 16px;
+    height: auto;
+    margin-right: 8px;
+}
+
+.footer .footer__lista .footer__ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer .footer__lista .footer__ul li a {
+    color: var(--text-color);
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.footer .footer__lista .footer__ul li a:hover{
+    color: var(--primary-color);
+}
+
+.footer .footer__midias {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.footer .footer__midias .footer__midia img {
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.footer .footer__midias .footer__midia img:hover {
+    scale: 1.5;
+}
 
 
 /* Responsvidade */
