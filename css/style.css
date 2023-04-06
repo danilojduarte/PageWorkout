@@ -646,19 +646,6 @@ nav {
         text-align: center;
     }
 
-    .container .work {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-    }
-
-    .container .work .work__text {
-        text-align: center;
-    }
-
-    .container .work .work__btn {
-        margin: auto;
-    }
     .container .start .start__text {
         text-align: center;
         justify-content: center;
@@ -683,7 +670,70 @@ nav {
         font-size: 2px;
         align-items: center;
     }
-    .container .start .start__cards .start__card i{
-        font-size: 6px;
+
+    .container .work {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .container .work .work__text {
+        text-align: center;
+    }
+
+    .container .work .work__btn {
+        margin: auto;
+    }
+
+    .membership .membership__text h3 {
+        text-align: center;
+    }
+    .membership .cards {
+        display: flex;
+        gap: 2rem;
+    }
+    .membership .cards .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .membership .cards .card .membership__list {
+        padding: 0;
+    }
+    .membership .cards .card .membership__list ul li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+        gap: 2rem;
+    }
+    .footer .footer__logo a {
+        margin: auto;
+    }
+    .footer .footer__logo p {
+        text-align: center;
+    }
+    .footer .footer__text {
+        align-items: center;
+    }
+    .footer .footer__lista {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footer .footer__midias {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        padding-bottom: 10px;
     }
 }
