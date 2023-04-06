@@ -218,7 +218,7 @@ nav {
 
 .start .start__cards .start__card {
     width: 254px;
-    height: 160px;
+    height: 180px;
     left: 141px;
     top: 1337px;
 
@@ -241,8 +241,9 @@ nav {
 .start .start__cards .start__card h4 {
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
+    padding-top: 6px;
 
     letter-spacing: 0.5px;
     color: var(--text-color);
@@ -271,6 +272,7 @@ nav {
     font-size: 40px;
     padding-top: 10px;
     color: var(--primary-color);
+    
 }
 
 /* Inicio Work Out */
@@ -656,5 +658,32 @@ nav {
 
     .container .work .work__btn {
         margin: auto;
+    }
+    .container .start .start__text {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .container .start .start__cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .start .start__cards .start__card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 4px;
+        align-items: center;
+        padding-right: 4px;
+        /* background-color: red; */
+    }
+    .container .start .start__cards .start__card p {
+        font-size: 2px;
+        align-items: center;
+    }
+    .container .start .start__cards .start__card i{
+        font-size: 6px;
     }
 }
